@@ -1,0 +1,4 @@
+{
+  message: @my_message,
+  time: @current_time,
+}
