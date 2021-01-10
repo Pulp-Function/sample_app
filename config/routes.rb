@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # EXAMPLE JSON ROUTE WITH API NAMESPACE
   namespace :api do
+    get "/peter" => "peter#peter"
     get "/pulp_function_path" => "example_pages#pulp_function_method"
   end
 end
